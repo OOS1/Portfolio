@@ -2,6 +2,19 @@
 .Trash
 /Library/
 
+# Ignore all .log files
+*.log
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules in JavaScript projects
+node_modules/
+
+# Ignore the build directory
+/build
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
